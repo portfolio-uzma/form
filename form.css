@@ -1,0 +1,32 @@
+a, .form-check label{
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
+}
+
+.wrapper input:focus{
+  box-shadow: none;
+}
+
+/* 
+.container{
+  transform: translate(-100%);
+  animation: translate 0.3s ease-in-out;
+} */
+
+.hidden{
+  display: none;
+}
+
+
+@media only screen and (max-width < 768px){
+  :root{
+    font-size: 50%;
+    box-shadow: none;
+  }
+}
+
+.otp input{
+  max-width: 15%;
+  height: 50px;
+  font-size: 20px;
+}
